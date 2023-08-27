@@ -19,10 +19,9 @@
             <button class="btn btn-accent" onclick="handleSearch()">Search</button>
         </section>
 
-        <!-- spinner or loader  -->
-
         <!-- search-result -->
         <section>
+            <!-- spinner or loader  -->
             <div id="loading-spinner" class="text-center my-40 hidden">
                 <span class="loading loading-spinner loading-lg"></span>
             </div>
@@ -30,8 +29,8 @@
                 
             </div>
             <!-- show all button  -->
-            <div class="hidden" id="show-all-container">
-                <button class="btn btn-accent">Show All</button>
+            <div class="hidden text-center my-8" id="show-all-container">
+                <button onclick="handleShowAll()" class="btn btn-accent">Show All</button>
             </div>
         </section>
     </main>
